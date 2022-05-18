@@ -6,6 +6,7 @@ This is Bangkit 2022 final project about Retinoblastoma detection as one of the 
 What we are doing here is:
 - Build The CNN model
 - Creating retinoblastoma detection dataset
+- Converting model to TFLite format
 ## Build With
 This application model build with some technology, whice is:
 - Python 3.9
