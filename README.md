@@ -7,6 +7,12 @@ What we are doing here is:
 - Build The CNN model
 - Creating retinoblastoma detection dataset
 - Converting model to TFLite format
+
+## How to Run the notebook
+1. Open Retinoblastoma_Detection.ipynb in google colab
+2. Change runtime type using GPU
+3. Upload dataset from dataset folder in this repository
+
 ## Build With
 This application model build with some technology, whice is:
 - Python 3.9
