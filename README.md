@@ -8,7 +8,7 @@ What we are doing here is:
 - Creating retinoblastoma detection dataset
 - Converting model to TFLite format
 
-## How to Run the notebook
+## How to Run The Notebook
 1. Open Retinoblastoma_Detection.ipynb in google colab
 2. Change runtime type using GPU
 3. Upload dataset from dataset folder in this repository
