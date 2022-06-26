@@ -63,7 +63,7 @@ In coclusion we are able to create classification model for retinoblastoma case 
 - [Accurate leukocoria predictor based on deep VGG-net CNN technique](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ipr.2018.6656)
 - [Early Prediction and Diagnosis of Retinoblastoma Using Deep Learning Techniques](https://arxiv.org/abs/2103.07622)
 - [Eye disorder dataset classifier with VGG16](https://www.kaggle.com/code/chetbounl/eye-disorder-dataset-classifier-with-vgg16/notebook)
-- [GRADLE] (https://play.google.com/store/apps/details?id=net.leuko.leuko_android&hl=in&gl=US)
+- [GRADLE](https://play.google.com/store/apps/details?id=net.leuko.leuko_android&hl=in&gl=US)
 
 ## How to Run The Notebook
 ### in google colab
