@@ -57,7 +57,7 @@ finallly we convert the .h5 model to .tflite format for the android deployment u
 Full code implementation and results can be seen on [Retinoblastoma_detection.ipynb](https://github.com/hugomuhammad/MachineLearning-ClearVis/blob/main/Retinoblastoma_Detection.ipynb)
 
 ## Conclusion
-In coclusion we are able to create classification model for retinoblastoma case with 78% accuracy on test data with realitively small amount of data by using transfer learning. for the future development we are aiming to get more data and trying to reduce false negative and true negative rate.
+In coclusion we are able to create classification model for retinoblastoma case with 78% accuracy on test data with realitively small amount of data by using transfer learning. for the future development we are aiming to get more data and trying to reduce false negative and increase true negative rate.
 
 ## Reference
 - [Accurate leukocoria predictor based on deep VGG-net CNN technique](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ipr.2018.6656)
