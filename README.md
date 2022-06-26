@@ -20,6 +20,8 @@ What is our objective?
 | ------ | ------ |
 | Title | Retinoblastoma dataset, ClearVis |
 | Description | Retinoblastoma dataset consist of 2 classes normal eye and retinoblastoma eye. created for bangkit 2022 capstone project |
+| Classes | Normal eye, Retinoblastoma eye |
+| Records | 535 Train set, 50 Validation set, 40 Test set |
 | Structure | <img src="https://github.com/hugomuhammad/MachineLearning-ClearVis/blob/main/assets/Screen%20Shot%202022-06-26%20at%2016.22.40.png"/> |
 | Size | 21,2 MB |
 
@@ -60,6 +62,8 @@ In coclusion we are able to create classification model for retinoblastoma case 
 ## Reference
 - [Accurate leukocoria predictor based on deep VGG-net CNN technique](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ipr.2018.6656)
 - [Early Prediction and Diagnosis of Retinoblastoma Using Deep Learning Techniques](https://arxiv.org/abs/2103.07622)
+- [Eye disorder dataset classifier with VGG16](https://www.kaggle.com/code/chetbounl/eye-disorder-dataset-classifier-with-vgg16/notebook)
+- [GRADLE] (https://play.google.com/store/apps/details?id=net.leuko.leuko_android&hl=in&gl=US)
 
 ## How to Run The Notebook
 ### in google colab
