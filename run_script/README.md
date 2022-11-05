@@ -1,4 +1,4 @@
-## How to run python script
+# How to run python script
 1. Run train.py on terminal with python run command
 2. Run testing_model.py to see the model performance
 
