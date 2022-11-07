@@ -21,9 +21,9 @@ What is our objective?
 | Title | Retinoblastoma dataset, ClearVis |
 | Description | Retinoblastoma dataset consist of 2 classes normal eye and retinoblastoma eye. created for bangkit 2022 capstone project |
 | Classes | Normal eye, Retinoblastoma eye |
-| Records | 535 Train set, 50 Validation set, 40 Test set |
+| Records |  184 Train set, 40 Validation set, 26 Test set |
 | Structure | <img src="https://github.com/hugomuhammad/MachineLearning-ClearVis/blob/main/assets/Screen%20Shot%202022-06-26%20at%2016.22.40.png"/> |
-| Size | 21,2 MB |
+| Size | 11,3 MB |
 
 Sample:
 - Normal eye
@@ -54,18 +54,21 @@ After everything is done we saved the model to the .h5 file format.
 7. Convert to TFLite format
 finallly we convert the .h5 model to .tflite format for the android deployment using tensorflow lite.
 
-Full code implementation and results can be seen on [Retinoblastoma_detection.ipynb](https://github.com/hugomuhammad/MachineLearning-ClearVis/blob/main/Retinoblastoma_Detection.ipynb)
+Full code implementation and results can be seen on [Retinoblastoma_detection.ipynb](https://github.com/hugomuhammad/MachineLearning-ClearVis/blob/main/Retinoblastoma_Detection.ipynb) and [python script](https://github.com/hugomuhammad/MachineLearning-ClearVis/tree/main/run_script)
+
+## Results
+Model performance achieved 83% precision, 100% recall, 90.9% f1-score and 92.3% accuracy
 
 ## Conclusion
-In coclusion we are able to create classification model for retinoblastoma case with 78% accuracy on test data with realitively small amount of data by using transfer learning. for the future development we are aiming to get more data and trying to reduce false negative and increase true negative rate.
+In coclusion we are able to create classification model for retinoblastoma case with 92.3% accuracy on test data and 100.0% recall which means the model can well classify the positive class (retinoblastoma), this is very important for detecting disease symptomps task. for the future development we are aiming to get more data and trying to test model performance on bigger testiing set.
 
-## Reference
-- [Accurate leukocoria predictor based on deep VGG-net CNN technique](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ipr.2018.6656)
-- [Early Prediction and Diagnosis of Retinoblastoma Using Deep Learning Techniques](https://arxiv.org/abs/2103.07622)
-- [Eye disorder dataset classifier with VGG16](https://www.kaggle.com/code/chetbounl/eye-disorder-dataset-classifier-with-vgg16/notebook)
-- [GRADLE](https://play.google.com/store/apps/details?id=net.leuko.leuko_android&hl=in&gl=US)
+## Deployed web app
+The android app still using the previous model(VGG16 transfer learning). Try this [Deployed web app](https://huggingface.co/spaces/mgonnzz/retinoblastoma-classification-app) instead to test current model performance.
 
-## How to Run The Notebook
+## How to run python script
+[Run python script](https://github.com/hugomuhammad/MachineLearning-ClearVis/tree/main/run_script)
+
+## How to run The Notebook
 ### in google colab
 1. Open Retinoblastoma_Detection.ipynb in google colab
 2. Change runtime type using GPU
@@ -96,10 +99,15 @@ Run the notebook
 This application model build with some technology, whice is:
 - Python 3.9
 - Jupyter Notebook
-- Tensorflow 2.5
+- Tensorflow 2.9
 - numpy 1.19.5
 - Google Colab
 
+## Reference
+- [Accurate leukocoria predictor based on deep VGG-net CNN technique](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ipr.2018.6656)
+- [Early Prediction and Diagnosis of Retinoblastoma Using Deep Learning Techniques](https://arxiv.org/abs/2103.07622)
+- [Eye disorder dataset classifier with VGG16](https://www.kaggle.com/code/chetbounl/eye-disorder-dataset-classifier-with-vgg16/notebook)
+- [GRADLE](https://play.google.com/store/apps/details?id=net.leuko.leuko_android&hl=in&gl=US)
 
 
 
